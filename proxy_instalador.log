@@ -1,0 +1,11 @@
+[2025-10-02 12:24:00] Proxy testado OK: http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:24:23] Proxy testado OK: http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:24:39] Credenciais OK para pmnh.nh.gov.br\paulosr em http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:24:42] Proxy testado OK: http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:24:49] Iniciando instalaÃ§Ã£o PHP do site: https://php.new/install/windows/8.4
+[2025-10-02 12:24:57] Erro instalaÃ§Ã£o: Exceção ao chamar "DownloadString" com "1" argumento(s): "O servidor remoto retornou um erro: (407) Autenticação de Proxy Obrigatória."
+[2025-10-02 12:25:02] Credenciais OK para pmnh.nh.gov.br\paulosr em http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:25:04] Proxy testado OK: http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:26:51] Erro Proxy: Exceção ao chamar ".ctor" com "2" argumento(s): "URI inválido: o nome do host não pôde ser analisado."
+[2025-10-02 12:27:07] Proxy testado OK: http://proxy.novohamburgo.rs.gov.br:3128
+[2025-10-02 12:33:49] Erro instalaÃ§Ã£o: Exceção ao chamar ".ctor" com "2" argumento(s): "URI inválido: o nome do host não pôde ser analisado."

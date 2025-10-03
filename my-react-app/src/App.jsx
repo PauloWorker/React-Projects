@@ -1,6 +1,7 @@
 import Footer from './footer.jsx';
 import Header from './header.jsx';
 import ListGroup from './components/listGroup.js';
+import Comp from './Comp.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Footer/>
       <ListGroup/>
+
     </>
   );
 }
