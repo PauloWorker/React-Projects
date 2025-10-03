@@ -1,7 +1,9 @@
 function Header() {
+    const name = "My React App";
+
     return(
         <header>
-            <h1>Welcome to My React App</h1>
+            <h1>Welcome to {name}</h1>
             <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -11,6 +13,7 @@ function Header() {
             </ul>
             </nav>
             <hr />
+            
         </header>
     );
 }
