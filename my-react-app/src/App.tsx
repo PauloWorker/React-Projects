@@ -2,6 +2,7 @@ import Footer from './footer.jsx';
 import Header from './header.jsx';
 import ListGroup from './components/listGroup.js';
 import Comp from './Comp.jsx';
+import Alert from './components/Alert.js';
 
 function App() {
     let items = [
@@ -19,9 +20,13 @@ function App() {
   
   return (
     <>
-      <Header/>
+      {/* <Header/>
       <Footer/>
-      <ListGroup items={items} heading="Cities" onSelectItem={handleSelectedItem} />
+      <ListGroup items={items} heading="Cities" onSelectItem={handleSelectedItem} /> */}
+
+      <div>
+        <Alert />
+      </div>
 
     </>
   );
