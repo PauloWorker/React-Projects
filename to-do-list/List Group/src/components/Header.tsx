@@ -2,7 +2,7 @@ function Header() {
     return(
         <header>
             <div className="logo">
-                To-do-List
+                <span>To-do-List</span>
             </div>
         </header>
     );

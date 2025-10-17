@@ -18,6 +18,10 @@ header {
   background-color: var(--background-header);
 }
 
-.logo {
-  
+.logo span {
+  height: 100%;
+  font-size: larger;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
 }
