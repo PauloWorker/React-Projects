@@ -2,8 +2,10 @@
   /* Colors */
 
   --background-header: #14a6e4;
-
+  --background-container: rgba(128, 128, 128, 0.257);
 }
+
+/* --- Header --- */
 
 body {
   margin: 0;
@@ -24,4 +26,15 @@ header {
   font-weight: 500;
   display: flex;
   align-items: center;
+}
+
+/* --- Container --- */
+
+.container{
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-self: center;
+  background-color: var(--background-container);
 }
