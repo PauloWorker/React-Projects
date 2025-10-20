@@ -5,6 +5,7 @@
   --background-root: rgb(36, 36, 36);
   --background-header: #14a6e4;
   --background-container: rgba(128, 128, 128, 0.257);
+  --color-list-text: white;
 }
 
 /* --- General --- */
@@ -50,4 +51,17 @@ header {
   display: flex;
   justify-self: center;
   background-color: var(--background-container);
+}
+
+/* --- Lists --- */
+
+.lists-window .row{
+  display: inline;
+}
+
+.list {
+  width: 1px;
+  padding: 5px;
+  color: var(--color-list-text);
+  /* background-color: #14a6e4; */
 }

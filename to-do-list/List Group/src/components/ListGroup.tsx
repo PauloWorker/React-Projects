@@ -12,9 +12,13 @@ function ListGroup(){
                 <span className="input-group-text btn btn-success col-sm-1" id="add-button">Add</span>
             </div>
 
-            {/* List here */}
-            <div className="lists">
-                
+            {/* Lists here */}
+            <div className="lists-window">
+                <div className="row">
+                    <div className="list border border-primary rounded-1">
+                        TodoList
+                    </div>
+                </div>
             </div>
         </>
     );
