@@ -8,8 +8,13 @@ function ListGroup(){
 
             {/* Type bar */}
             <div className="input-group mb-3">
-                <input type="text" name="type-bar" id="type-bar" placeholder="Type here what do you want to add" />
-                <span className="input-group-text" id="">Add</span>
+                <input className="form-control" type="text" name="type-bar" id="type-bar" placeholder="Type here what you want to add" />
+                <span className="input-group-text btn btn-success col-sm-1" id="add-button">Add</span>
+            </div>
+
+            {/* List here */}
+            <div className="lists">
+                
             </div>
         </>
     );

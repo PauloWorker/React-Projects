@@ -1,15 +1,28 @@
 :root{
   /* Colors */
 
+  --h1-color: white;
+  --background-root: rgb(36, 36, 36);
   --background-header: #14a6e4;
   --background-container: rgba(128, 128, 128, 0.257);
 }
 
-/* --- Header --- */
+/* --- General --- */
+
+
+#root{
+  background-color: var(--background-root);
+}
 
 body {
   margin: 0;
 }
+
+.logo span, div h1 { /*Logo color and Title color*/
+  color: var(--h1-color);
+}
+
+/* --- Header --- */
 
 header {
   width: 100%;
