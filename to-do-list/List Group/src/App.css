@@ -42,6 +42,9 @@ header {
   align-items: center;
 }
 
+/* --- Input --- */
+
+
 /* --- Container --- */
 
 .container{
@@ -55,6 +58,11 @@ header {
 
 /* --- Lists --- */
 
+.input-group form{
+  width: 100%;
+  display: flex;
+}
+
 .lists-window .row{
   display: inline;
 }
@@ -63,5 +71,12 @@ header {
   width: 1px;
   padding: 5px;
   color: var(--color-list-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* background-color: #14a6e4; */
+}
+
+.options button{
+  margin-left: 2px;
 }
